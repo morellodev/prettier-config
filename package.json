@@ -1,0 +1,10 @@
+{
+  "name": "@morellodev/prettier-config",
+  "version": "1.0.0",
+  "description": "A shareable configuration for projects using Prettier.",
+  "main": ".prettierrc",
+  "repository": "git@github.com:morellodev/prettier-config.git",
+  "author": "Dennis Morello <dennismorello@gmail.com>",
+  "license": "BSD-3-Clause",
+  "private": false
+}
