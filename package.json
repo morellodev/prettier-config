@@ -7,6 +7,17 @@
   "author": "Dennis Morello <dennismorello@gmail.com>",
   "license": "BSD-3-Clause",
   "private": false,
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config",
+    "eslintplugin",
+    "eslint-plugin",
+    "lint",
+    "prettier",
+    "prettierconfig",
+    "prettier-config"
+  ],
   "peerDependencies": {
     "prettier": "^2.0.0"
   }

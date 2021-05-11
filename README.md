@@ -1,7 +1,7 @@
 # prettier-config-morellodev
 
 A [shareable configuration](https://prettier.io/docs/en/configuration.html#sharing-configurations)
-for projects using **[Prettier](https://prettier.io/)** .
+for projects using **[Prettier](https://prettier.io/)**.
 
 ## Installation
 
