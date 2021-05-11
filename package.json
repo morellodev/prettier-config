@@ -2,7 +2,7 @@
   "name": "prettier-config-morellodev",
   "version": "1.0.1",
   "description": "A shareable configuration for projects using Prettier.",
-  "main": ".prettierrc",
+  "main": "index.json",
   "repository": "git@github.com:morellodev/prettier-config.git",
   "author": "Dennis Morello <dennismorello@gmail.com>",
   "license": "BSD-3-Clause",
