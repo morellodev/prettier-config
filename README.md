@@ -1,4 +1,4 @@
-# @morellodev/prettier-config
+# prettier-config-morellodev
 
 A [shareable configuration](https://prettier.io/docs/en/configuration.html#sharing-configurations)
 for projects using **[Prettier](https://prettier.io/)** .
@@ -6,7 +6,7 @@ for projects using **[Prettier](https://prettier.io/)** .
 ## Installation
 
 ```sh
-npm install --save-dev @morellodev/prettier-config
+npm install --save-dev prettier-config-morellodev
 ```
 
 _This is only a shareable configuration. It does not install Prettier,
@@ -19,9 +19,9 @@ Reference it in `package.json` using the `prettier` property:
 ```json
 {
   "name": "my-project-name",
-  "prettier": "@morellodev/prettier-config",
+  "prettier": "prettier-config-morellodev",
   "devDependencies": {
-    "@morellodev/prettier-config": "^1.0.0"
+    "prettier-config-morellodev": "^1.0.0"
   }
 }
 ```
@@ -31,12 +31,12 @@ extensions to export a string:
 
 ```jsonc
 // `.prettierrc.json`
-"@morellodev/prettier-config"
+"prettier-config-morellodev"
 ```
 
 ```javascript
 // `prettier.config.js` or `.prettierrc.js`
-module.exports = "@morellodev/prettier-config";
+module.exports = "prettier-config-morellodev";
 ```
 
 ## Extending Shared Configurations
@@ -68,7 +68,7 @@ For example, if you need to change it so that semicolons are removed:
 
 ```javascript
 // `prettier.config.js` or `.prettierrc.js`
-const morellodevPrettierConfig = require("@morellodev/prettier-config");
+const morellodevPrettierConfig = require("prettier-config-morellodev");
 const merge = require("lodash.merge");
 
 const modifiedConfig = merge({}, morellodevPrettierConfig, {

@@ -1,5 +1,5 @@
 {
-  "name": "@morellodev/prettier-config",
+  "name": "prettier-config-morellodev",
   "version": "1.0.0",
   "description": "A shareable configuration for projects using Prettier.",
   "main": ".prettierrc",
