@@ -17,12 +17,12 @@ jobs:
           fetch-depth: 0
 
       - name: Setup Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2
         with:
           node-version: 14
 
       - name: Install dependencies
-        uses: yarn --frozen-lockfile --check-files --non-interactive
+        run: yarn --frozen-lockfile --check-files --non-interactive
 
       - name: Release
         env:
