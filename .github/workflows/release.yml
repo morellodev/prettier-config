@@ -21,8 +21,8 @@ jobs:
         with:
           node-version: 14
 
-      - name: Install dependencies
-        run: yarn --frozen-lockfile --check-files --non-interactive
+      - name: Install deps and build (with cache)
+        uses: bahmutov/npm-install@v1
 
       - name: Release
         env:
