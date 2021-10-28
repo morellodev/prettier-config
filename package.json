@@ -1,6 +1,6 @@
 {
   "name": "prettier-config-morellodev",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A shareable configuration for projects using Prettier.",
   "main": "index.json",
   "repository": "git@github.com:morellodev/prettier-config.git",
